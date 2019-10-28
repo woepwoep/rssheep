@@ -1,0 +1,68 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<table class="tx-rssheep" >
+	<tr>
+		<td>
+			<f:translate key="tx_rssheep_domain_model_sheepdata.life_number" />
+		</td>
+		<td>
+		{sheepdata.lifeNumber}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_rssheep_domain_model_sheepdata.gender" />
+		</td>
+		<td>
+		{sheepdata.gender}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_rssheep_domain_model_sheepdata.birth_date" />
+		</td>
+		<td>
+		{sheepdata.birthDate -> f:format.date()}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_rssheep_domain_model_sheepdata.scrapie_status" />
+		</td>
+		<td>
+		{sheepdata.scrapieStatus}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_rssheep_domain_model_sheepdata.life_number_mother" />
+		</td>
+		<td>
+		{sheepdata.lifeNumberMother}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_rssheep_domain_model_sheepdata.life_number_father" />
+		</td>
+		<td>
+		{sheepdata.lifeNumberFather}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_rssheep_domain_model_sheepdata.remark" />
+		</td>
+		<td>
+		{sheepdata.remark}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_rssheep_domain_model_sheepdata.registrant" />
+		</td>
+		<td>
+		{sheepdata.registrant}
+		</td>
+	</tr>
+</table>
+</html>

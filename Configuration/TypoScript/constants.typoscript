@@ -1,0 +1,15 @@
+
+plugin.tx_rssheep_sheepdata {
+    view {
+        # cat=plugin.tx_rssheep_sheepdata/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:rssheep/Resources/Private/Templates/
+        # cat=plugin.tx_rssheep_sheepdata/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:rssheep/Resources/Private/Partials/
+        # cat=plugin.tx_rssheep_sheepdata/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:rssheep/Resources/Private/Layouts/
+    }
+    persistence {
+        # cat=plugin.tx_rssheep_sheepdata//a; type=string; label=Default storage PID
+        storagePid =
+    }
+}

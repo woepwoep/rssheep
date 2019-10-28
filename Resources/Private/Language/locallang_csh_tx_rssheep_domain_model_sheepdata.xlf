@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2019-10-10T16:08:21Z" product-name="rssheep">
+		<header/>
+		<body>
+			<trans-unit id="life_number.description">
+				<source>Life number of this animal.</source>
+			</trans-unit>
+			<trans-unit id="gender.description">
+				<source>Gender of this animal. Choices are V,M and C.</source>
+			</trans-unit>
+			<trans-unit id="birth_date.description">
+				<source>Birth date of this animal</source>
+			</trans-unit>
+			<trans-unit id="scrapie_status.description">
+				<source>Scrapie status (= health status). Choices are ARR/ARR, ARR/ARH, ARR/ARQ and ARR/VRQ</source>
+			</trans-unit>
+			<trans-unit id="life_number_mother.description">
+				<source>Life number of this animal&#039;s mother.</source>
+			</trans-unit>
+			<trans-unit id="life_number_father.description">
+				<source>Life number of this animal&#039;s father</source>
+			</trans-unit>
+			<trans-unit id="remark.description">
+				<source>Optional remarks about this animal.</source>
+			</trans-unit>
+			<trans-unit id="registrant.description">
+				<source>uid of the loggedin user (fe_user)</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

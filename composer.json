@@ -1,0 +1,28 @@
+{
+    "name": "redseadog/rssheep",
+    "type": "typo3-cms-extension",
+    "description": "Extension for sheep administration",
+    "authors": [
+        {
+            "name": "Ronald Wopereis",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "RedSeadog\\Rssheep\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RedSeadog\\Rssheep\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "redseadog/rssheep": "self.version",
+        "typo3-ter/rssheep": "self.version"
+    }
+}

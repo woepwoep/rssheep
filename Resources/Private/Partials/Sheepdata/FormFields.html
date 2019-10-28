@@ -1,0 +1,34 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<label for="lifeNumber">
+	<f:translate key="tx_rssheep_domain_model_sheepdata.life_number" /> <span class="required">(required)</span>
+</label><br />
+	<f:form.textfield property="lifeNumber" /><br />
+<label for="gender">
+	<f:translate key="tx_rssheep_domain_model_sheepdata.gender" /> <span class="required">(required)</span>
+</label><br />
+	<f:form.textfield property="gender" /><br />
+<label for="birthDate">
+	<f:translate key="tx_rssheep_domain_model_sheepdata.birth_date" />
+</label><br />
+	<f:form.textfield property="birthDate" value="{sheepdata.birthDate->f:format.date()}" /><br />
+<label for="scrapieStatus">
+	<f:translate key="tx_rssheep_domain_model_sheepdata.scrapie_status" />
+</label><br />
+	<f:form.textfield property="scrapieStatus" /><br />
+<label for="lifeNumberMother">
+	<f:translate key="tx_rssheep_domain_model_sheepdata.life_number_mother" />
+</label><br />
+	<f:form.textfield property="lifeNumberMother" /><br />
+<label for="lifeNumberFather">
+	<f:translate key="tx_rssheep_domain_model_sheepdata.life_number_father" />
+</label><br />
+	<f:form.textfield property="lifeNumberFather" /><br />
+<label for="remark">
+	<f:translate key="tx_rssheep_domain_model_sheepdata.remark" />
+</label><br />
+	<f:form.textarea property="remark" cols="40" rows="15" /><br />
+<label for="registrant">
+	<f:translate key="tx_rssheep_domain_model_sheepdata.registrant" /> <span class="required">(required)</span>
+</label><br />
+	<f:form.textfield property="registrant" /><br />
+</html>

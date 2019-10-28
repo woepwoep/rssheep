@@ -1,0 +1,179 @@
+{
+    "modules": [
+        {
+            "config": {
+                "position": [
+                    209,
+                    186
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_list": true,
+                    "_default1_show": true,
+                    "_default2_new_create": true,
+                    "_default3_edit_update": true,
+                    "_default4_delete": true,
+                    "customActions": []
+                },
+                "name": "Sheepdata",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": true,
+                    "categorizable": true,
+                    "description": "A unique entry for every animal.",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": true,
+                    "type": "Entity",
+                    "uid": "508224792973"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "Life number of this animal.",
+                            "propertyIsExcludeField": false,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "lifeNumber",
+                            "propertyType": "String",
+                            "uid": "281992675406"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "Gender of this animal. Choices are V,M and C.",
+                            "propertyIsExcludeField": false,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "gender",
+                            "propertyType": "Select",
+                            "uid": "565393308637"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "Birth date of this animal",
+                            "propertyIsExcludeField": false,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "birthDate",
+                            "propertyType": "NativeDate",
+                            "uid": "985296622552"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "Scrapie status (= health status). Choices are ARR\/ARR, ARR\/ARH, ARR\/ARQ and ARR\/VRQ",
+                            "propertyIsExcludeField": false,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "scrapieStatus",
+                            "propertyType": "Select",
+                            "uid": "46688481788"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "Life number of this animal's mother.",
+                            "propertyIsExcludeField": false,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "lifeNumberMother",
+                            "propertyType": "String",
+                            "uid": "282252506460"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "Life number of this animal's father",
+                            "propertyIsExcludeField": false,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "lifeNumberFather",
+                            "propertyType": "String",
+                            "uid": "429652691191"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "Optional remarks about this animal.",
+                            "propertyIsExcludeField": false,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "remark",
+                            "propertyType": "Text",
+                            "uid": "600815429796"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "uid of the loggedin user (fe_user)",
+                            "propertyIsExcludeField": false,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "registrant",
+                            "propertyType": "Integer",
+                            "uid": "1114656538834"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": []
+                }
+            }
+        }
+    ],
+    "properties": {
+        "backendModules": [],
+        "description": "Extension for sheep administration",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "sheepadmin",
+            "dependsOn": "typo3 => 9.5.0-9.5.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "9.5.0-9.5.99",
+            "version": "19.10.10"
+        },
+        "extensionKey": "rssheep",
+        "name": "rssheep",
+        "originalExtensionKey": "rssheep",
+        "originalVendorName": "RedSeadog",
+        "persons": [
+            {
+                "company": "Red-Seadog",
+                "email": "woepwoep@gmail.com",
+                "name": "Ronald Wopereis",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "Sheepreg => list,add,update,delete",
+                    "noncacheableActions": "Sheepreg => list,add,update,delete",
+                    "switchableActions": ""
+                },
+                "description": "Plugin to register sheep data.",
+                "key": "sheepdata",
+                "name": "sheepdata"
+            }
+        ],
+        "vendorName": "RedSeadog"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2019-10-10 04:08",
+        "extension_builder_version": "9.10.2",
+        "be_user": "Ronald Wopereis (1)"
+    }
+}
