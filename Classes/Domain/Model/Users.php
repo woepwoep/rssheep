@@ -1,5 +1,5 @@
 <?php
-namespace VENDOR\Extname\Domain\Model;
+namespace RedSeadog\Rssheep\Domain\Model;
 
 class User extends \TYPO3\CMS\Extbase\Domain\Model\FrontendUser {
 

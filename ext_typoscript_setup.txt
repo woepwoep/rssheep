@@ -1,4 +1,4 @@
-plugin.tx_extname {
+plugin.tx_rssheep {
     persistence{
         classes{
             RedSeadog\Rssheep\Domain\Model\User {

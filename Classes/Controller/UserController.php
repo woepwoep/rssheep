@@ -1,5 +1,5 @@
 <?php
-namespace VENDOR\Extname\Controller;
+namespace RedSeadog\Rssheep\Controller;
 
 /**
  * UserController
@@ -10,7 +10,7 @@ class UserController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController 
     /**
      * userRepository
      *
-     * @var \VENDOR\Extname\Domain\Repository\UserRepository
+     * @var \RedSeadog\Rssheep\Domain\Repository\UserRepository
      * @inject
      */
     protected $userRepository = NULL;
