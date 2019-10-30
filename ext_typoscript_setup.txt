@@ -1,0 +1,11 @@
+plugin.tx_extname {
+    persistence{
+        classes{
+            RedSeadog\Rssheep\Domain\Model\User {
+                mapping {
+                    tableName = fe_users
+                }
+            }
+        }
+    }
+}
