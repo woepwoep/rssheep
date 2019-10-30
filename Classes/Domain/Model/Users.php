@@ -4,30 +4,30 @@ namespace VENDOR\Extname\Domain\Model;
 class User extends \TYPO3\CMS\Extbase\Domain\Model\FrontendUser {
 
     /**
-     * mobile
+     * ubn
      *
      * @var \string
      */
-    protected $mobile;
+    protected $ubn;
         
         
         
     /**
-     * Returns the mobile
+     * Returns the ubn
      *
-     * @return \string $mobile
+     * @return \string $ubn
      */
-    public function getMobile() {
-        return $this->mobile;
+    public function getUbn() {
+        return $this->ubn;
     }
 
     /**
-     * Sets the mobile
+     * Sets the ubn
      *
-     * @param \string $mobile
+     * @param \string $ubn
      * @return void
      */
-    public function setMobile($mobile) {
-        $this->mobile = $mobile;
+    public function setUbn($ubn) {
+        $this->ubn = $ubn;
     }
 }
