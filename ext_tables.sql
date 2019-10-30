@@ -20,10 +20,3 @@ CREATE TABLE tx_rssheep_domain_model_sheepdata (
 CREATE TABLE tx_rssheep_domain_model_sheepdata (
 	categories int(11) unsigned DEFAULT '0' NOT NULL,
 );
-
-#
-# Table structure for table 'fe_users'
-#
-CREATE TABLE fe_users (
-    ubn int(7) DEFAULT '' NOT NULL,
-);
