@@ -37,7 +37,7 @@ class Sheepdata extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     /**
      * Birth date of this animal
      * 
-     * @var \DateTime
+     * @var int
      */
     protected $birthDate = null;
 
@@ -123,7 +123,7 @@ class Sheepdata extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     /**
      * Returns the birthDate
      * 
-     * @return \DateTime $birthDate
+     * @return int $birthDate
      */
     public function getBirthDate()
     {
@@ -133,7 +133,7 @@ class Sheepdata extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     /**
      * Sets the birthDate
      * 
-     * @param \DateTime $birthDate
+     * @param int $birthDate
      * @return void
      */
     public function setBirthDate(\DateTime $birthDate)
